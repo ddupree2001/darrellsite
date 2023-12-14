@@ -1,0 +1,13 @@
+* {
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.menu_shape {
+  background: black;
+ height: 70px;
+ width: 65px;
+ border-bottom-right-radius: 90px;
+ border-bottom-left-radius: 90px;
+}
