@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 
-const NavButton = () => {
-  const [open, setOpen] = useState(false);
-
+const NavButton = ({ open, setOpen }) => {
   return (
     <div
-      className="menu_shape z-10 cursor-pointer flex flex-col py-3 px-3 gap-y-1 hover:opacity-30"
+      className="menu_shape cursor-pointer flex flex-col py-3 px-3 gap-y-1 hover:opacity-30"
       onClick={() => setOpen(!open)}
     >
       <div
