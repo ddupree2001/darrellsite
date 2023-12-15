@@ -2,11 +2,7 @@ import React from 'react';
 
 const MenuBlocks = ({ open }) => {
   return (
-    <div
-      className={`${
-        open ? '' : ''
-      } fixed w-full h-screen flex flex-col md:flex-row`}
-    >
+    <div className="fixed w-full h-screen flex flex-col md:flex-row">
       <div
         className={`${
           open
