@@ -4,6 +4,10 @@
   transition-timing-function: ease-in-out;
 }
 
+html {
+  background-color: black;
+}
+
 .menu_shape {
   background: black;
  height: 70px;
