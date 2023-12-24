@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NavButton from './NavButton';
 import MenuBlocks from './MenuBlocks';
+import Footer from './Footer';
 
 const Layout = ({ children }) => {
   const [open, setOpen] = useState(false);
@@ -12,6 +13,7 @@ const Layout = ({ children }) => {
       </div>
       <MenuBlocks open={open} />
       <div className="w-full">{children}</div>
+      <Footer open={open} />
     </div>
   );
 };

@@ -37,6 +37,11 @@ html {
 @media (max-width: 768px) {
   .headshot {
     background-position: right;
-  background-size: cover;
+  }
+}
+
+@media (max-width: 640px) {
+  .left_block {
+    background-position: top;
   }
 }
