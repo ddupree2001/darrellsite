@@ -15,3 +15,28 @@ html {
  border-bottom-right-radius: 90px;
  border-bottom-left-radius: 90px;
 }
+
+.headshot {
+  background-image: url('./assets/headshot_bg.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  z-index: 1;
+}
+
+.left_block {
+  background-image: url('./assets/dteat_white.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .headshot {
+    background-position: right;
+  background-size: cover;
+  }
+}
