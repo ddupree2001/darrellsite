@@ -3,20 +3,20 @@ import NavLink from './NavLink';
 
 const MenuBlocks = ({ open, setOpen }) => {
   return (
-    <div className="fixed w-full h-screen flex flex-col sm:flex-row z-40">
+    <div className="w-full flex flex-col sm:flex-row z-40">
       <div
         className={`${
           open
             ? ''
-            : 'translate-x-full translate-y-0 sm:translate-x-0 sm:translate-y-full'
-        } w-full sm:w-1/2 h-1/2 sm:h-full transition-all duration-1000 ease-in-out left_block`}
+            : '-translate-x-full translate-y-0 sm:translate-x-0 sm:translate-y-full'
+        } fixed w-full sm:w-1/2 h-1/2 sm:h-screen transition-all duration-1000 ease-in-out left_block`}
       ></div>
       <div
         className={`${
           open
-            ? ''
-            : '-translate-x-full translate-y-0 sm:translate-x-0 sm:-translate-y-full'
-        } w-full sm:w-1/2 h-1/2 sm:h-full bg-[#D3D3D3] flex flex-col justify-between items-center px-4 md:px-12 xl:px-16 2xl:px-20 py-10 sm:py-20 transition-all duration-1000 ease-in-out`}
+            ? 'sm:translate-x-full translate-y-full sm:translate-y-0'
+            : 'translate-x-full translate-y-full sm:translate-x-full sm:-translate-y-full'
+        } fixed w-full sm:w-1/2 h-1/2 sm:h-screen bg-[#D3D3D3] flex flex-col justify-between items-center px-4 md:px-12 xl:px-16 2xl:px-20 py-10 sm:py-20 transition-all duration-1000 ease-in-out`}
       >
         <p className="text-[#333333]">
           My only goal is to help you win. When you win, those in your sphere of
