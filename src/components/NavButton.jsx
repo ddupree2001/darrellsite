@@ -1,35 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const NavButton = ({ open, setOpen }) => {
-  return (
-    <div
-      className="menu_shape cursor-pointer flex flex-col py-3 px-3 gap-y-1 group sm:hover:opacity-50"
-      onClick={() => setOpen(!open)}
-    >
-      <div
-        className={`${
-          open ? 'rotate-[15deg] translate-y-1.5' : 'rotate-0 translate-y-0'
-        } bg-white sm:group-hover:bg-[#65bd50]  h-0.5 rounded-full`}
-      ></div>
-      <div
-        className={`${
-          open ? 'bg-black' : 'bg-white sm:group-hover:bg-[#65bd50]'
-        } h-0.5 rounded-full`}
-      ></div>
-      <div
-        className={`${
-          open ? '-rotate-[15deg] -translate-y-1.5' : 'rotate-0 translate-y-0'
-        } bg-white sm:group-hover:bg-[#65bd50] h-0.5 rounded-full`}
-      ></div>
-      <p
-        className={
-          'text-white sm:group-hover:text-[#65bd50] text-xs text-center mt-0.5'
-        }
-      >
-        {open ? 'CLOSE' : 'MENU'}
-      </p>
-    </div>
-  );
+const NavButton = ({ isActive, children }) => {
+  const defaultClasses =
+    'relative py-1 px-3 rounded-md text-[#333333] md:text-menuText cursor-pointer transition-all duration-300 ease-in-out';
+  const activeClasses =
+    'bg-transparent text-[#333333] md:text-primary ring-2 ring-inset ring-[#333333] md:ring-primary transition-all duration-300 ease-in-out';
+  const inActiveClasses = 'nav-btn hover:text-primary';
+
+  const buttonClasses = isActive
+    ? `${defaultClasses} ${activeClasses}`
+    : `${defaultClasses} ${inActiveClasses}`;
+
+  return <div className={buttonClasses}>{children}</div>;
 };
 
 export default NavButton;

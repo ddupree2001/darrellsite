@@ -34,6 +34,24 @@ html {
   z-index: 1;
 }
 
+.nav-btn::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.15rem;
+  border-radius: 100px;
+  left: 0;
+  bottom: 0;
+  background: #333333;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.nav-btn:hover::after {
+  transform: scaleX(1);
+}
+
 @media (max-width: 768px) {
   .headshot {
     background-position: right;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NavButton from './NavButton';
+import NavButton from './MenuButton';
 import MenuBlocks from './MenuBlocks';
 import Footer from './Footer';
 
@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
       <div className="max-w-screen-2xl mx-auto flex justify-end fixed w-full px-4 md:px-12 xl:px-16 2xl:px-20 z-50">
         <NavButton open={open} setOpen={setOpen} />
       </div>
-      <MenuBlocks open={open} />
+      <MenuBlocks open={open} setOpen={setOpen} />
       <div className="w-full">{children}</div>
       <Footer open={open} />
     </div>
