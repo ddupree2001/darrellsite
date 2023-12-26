@@ -3,7 +3,7 @@ import logo from '../assets/dteat_logo.svg';
 
 const Footer = ({ open }) => {
   return (
-    <div className={`${open ? 'z-10' : 'z-50 delay-1000'} bg-black w-full`}>
+    <div className="bg-black w-full">
       <div className="max-w-screen-2xl mx-auto px-4 md:px-12 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20">
         <div className="flex items-center text-white">
           <div className="w-1/3">
