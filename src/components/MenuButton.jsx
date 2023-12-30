@@ -23,7 +23,7 @@ const MenuButton = ({ open, setOpen }) => {
       ></div>
       <p
         className={
-          'text-white sm:group-hover:text-[#65bd50] text-xs text-center mt-0.5'
+          'font-openSans text-white sm:group-hover:text-[#65bd50] text-xs text-center mt-0.5'
         }
       >
         {open ? 'CLOSE' : 'MENU'}

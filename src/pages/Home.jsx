@@ -16,14 +16,14 @@ const Home = () => {
       </div>
       <div className="h-[200px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] headshot">
         <div className="max-w-screen-2xl mx-auto px-4 md:px-12 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 flex items-end h-full">
-          <p className="text-white text-base sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center w-3/5 font-semibold mb-4">
+          <p className="text-white text-base sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center w-3/5 font-robotoCondensed font-semibold mb-4">
             OUR MISSION IS TO “HELP TAKE THE LID OFF YOUR LIFE &amp; YOUR
             CAREER”
           </p>
         </div>
       </div>
       <div className="bg-[#D3D3D3]">
-        <div className="max-w-screen-2xl mx-auto px-4 md:px-12 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 text-[#333333] text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl flex flex-col gap-y-5">
+        <div className="max-w-screen-2xl mx-auto px-4 md:px-12 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 text-[#333333] font-openSans font-thin text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl flex flex-col gap-y-5">
           <p>
             Activating your strengths to operate at peak performance in every
             area of your life takes focus, identification of your standards,
@@ -46,10 +46,10 @@ const Home = () => {
       </div>
       <div className="bg-[#EFEDE6]">
         <div className="max-w-screen-2xl mx-auto px-4 md:px-12 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 flex flex-col items-center gap-y-5 md:gap-y-8 lg:gap-y-10">
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-[#65bd50]">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-robotoCondensed font-bold text-[#65bd50]">
             READY TO WIN
           </h2>
-          <p className="text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl text-center text-[#333333]">
+          <p className="font-thin font-openSans text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl text-center text-[#333333]">
             “Leadership is Leadership.” Leaders from a broad range of industries
             have trusted us to help develop their leaders, as well as, provide
             strategic guidance to their organizations.
@@ -58,7 +58,7 @@ const Home = () => {
       </div>
       <div className="block lg:flex">
         <div className="bg-[#D3D3D3] w-full lg:w-1/2">
-          <div className="max-w-screen-2xl mx-auto px-4 md:px-12 lg:px-8 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 flex flex-col justify-center items-center h-full gap-y-5 text-[0.7rem] sm:text-lg lg:text-base xl:text-xl text-[#333333] text-center">
+          <div className="max-w-screen-2xl mx-auto px-4 md:px-12 lg:px-8 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 flex flex-col justify-center items-center h-full gap-y-5 font-robotoCondensed text-sm sm:text-2xl lg:text-lg xl:text-xl  text-[#333333] text-center">
             <p>
               Scalable Strategy Development |{' '}
               <span className="font-bold">Productivity Enhancement</span>
@@ -71,17 +71,15 @@ const Home = () => {
               Management Execution |{' '}
               <span className="font-bold">Organizational Problem Solving</span>
             </p>
-            <p className="font-bold text-sm sm:text-lg lg:text-base xl:text-xl">
-              BE. DO. YOU.
-            </p>
+            <p className="font-bold">BE. DO. YOU.</p>
           </div>
         </div>
         <div className="bg-white w-full lg:w-1/2">
           <div className="max-w-screen-2xl mx-auto px-4 md:px-12 lg:px-8 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 flex flex-col items-center gap-y-5 sm:gap-y-10">
-            <h2 className="text-xl sm:text-2xl font-bold text-[#333333] text-center">
+            <h2 className="text-xl sm:text-2xl font-robotoCondensed font-bold text-[#333333] text-center">
               HELPING OUR CLIENTS “TAKE THE LID OFF”
             </h2>
-            <div className="flex gap-5 text-[#333333] text-xs sm:text-base lg:text-sm xl:text-base">
+            <div className="flex gap-5 font-light font-openSans text-[#333333] text-xs sm:text-base lg:text-sm xl:text-base">
               <div className="w-1/2">
                 <img
                   src={quote}
@@ -97,7 +95,7 @@ const Home = () => {
                   whole. The ROI from Darrell Teat &amp; Associates has been
                   exponential. I highly recommend Darrell Teat &amp; Associates
                 </p>
-                <p className="text-[#808080] mt-2">
+                <p className="font-normal font-robotoCondensed text-[#808080] mt-2">
                   Christopher Johnson, Founder &amp; CEO, The Johnson Group
                 </p>
               </div>
@@ -116,7 +114,7 @@ const Home = () => {
                   to anyone trying to grow their organization or elevate a
                   positive culture.
                 </p>
-                <p className="text-[#808080] mt-2">
+                <p className="font-normal font-robotoCondensed text-[#808080] mt-2">
                   Rachel Zillner, C-Founder &amp; CEO, CLUTCH
                 </p>
               </div>
