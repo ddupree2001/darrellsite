@@ -58,7 +58,7 @@ const Home = () => {
       </div>
       <div className="block lg:flex">
         <div className="bg-[#D3D3D3] w-full lg:w-1/2">
-          <div className="max-w-screen-2xl mx-auto px-4 md:px-12 lg:px-8 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 flex flex-col justify-center items-center h-full gap-y-5 font-robotoCondensed text-sm sm:text-2xl lg:text-lg xl:text-xl  text-[#333333] text-center">
+          <div className="max-w-screen-2xl mx-auto px-4 md:px-12 lg:px-8 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 flex flex-col justify-center items-center h-full gap-y-5 font-robotoCondensed text-sm sm:text-2xl lg:text-lg xl:text-xl text-[#333333] text-center">
             <p>
               Scalable Strategy Development |{' '}
               <span className="font-bold">Productivity Enhancement</span>
