@@ -1,6 +1,17 @@
-import React from 'react';
-import logo from '../assets/dteat_logo.svg';
-import quote from '../assets/quote.svg';
+import React from "react";
+import logo from "../assets/dteat_logo.svg";
+import quote from "../assets/quote.svg";
+import smud from "../assets/smud.jpg";
+import clutch from "../assets/clutch.png";
+import safe_credit from "../assets/safe_credit.png";
+import AHI from "../assets/AHI.jpg";
+import rapid_brands from "../assets/rapid_brands.png";
+import state_of_ca from "../assets/state_of_ca.jpg";
+import metro from "../assets/metro.png";
+import leap from "../assets/leap.jpg";
+import cxore from "../assets/cxore.png";
+import esa from "../assets/esa.png";
+import nichols from "../assets/nichols.png";
 
 const Home = () => {
   return (
@@ -54,13 +65,66 @@ const Home = () => {
             have trusted us to help develop their leaders, as well as, provide
             strategic guidance to their organizations.
           </p>
+          <div className="flex justify-center items-center gap-x-4 w-full">
+            <div>
+              <img src={smud} alt="SMUD" className="h-6 sm:h-10 md:h-16" />
+            </div>
+            <div>
+              <img src={clutch} alt="Clutch" className="h-4 sm:h-6 md:h-8" />
+            </div>
+            <div>
+              <img
+                src={safe_credit}
+                alt="Safe Credit Union"
+                className="h-6 sm:h-10 md:h-16"
+              />
+            </div>
+            <div>
+              <img src={AHI} alt="AHI" className="h-6 sm:h-10 md:h-16" />
+            </div>
+            <div>
+              <img
+                src={rapid_brands}
+                alt="Rapid Brands"
+                className="h-6 sm:h-10 md:h-16"
+              />
+            </div>
+          </div>
+          <div className="flex justify-center items-center gap-x-4 w-full">
+            <div>
+              <img
+                src={state_of_ca}
+                alt="State of California"
+                className="h-6 sm:h-10 md:h-16"
+              />
+            </div>
+            <div>
+              <img src={metro} alt="Metro" className="h-6 sm:h-10 md:h-16" />
+            </div>
+            <div>
+              <img src={leap} alt="Leap" className="h-6 sm:h-10 md:h-16" />
+            </div>
+            <div>
+              <img src={cxore} alt="Cxore" className="h-6 sm:h-10 md:h-16" />
+            </div>
+            <div>
+              <img src={esa} alt="ESA" className="h-6 sm:h-10 md:h-16" />
+            </div>
+            <div>
+              <img
+                src={nichols}
+                alt="Nichols"
+                className="h-6 sm:h-10 md:h-16"
+              />
+            </div>
+          </div>
         </div>
       </div>
       <div className="block lg:flex">
         <div className="bg-[#D3D3D3] w-full lg:w-1/2">
           <div className="max-w-screen-2xl mx-auto px-4 md:px-12 lg:px-8 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 flex flex-col justify-center items-center h-full gap-y-5 font-robotoCondensed text-sm sm:text-2xl lg:text-lg xl:text-xl text-[#333333] text-center">
             <p>
-              Scalable Strategy Development |{' '}
+              Scalable Strategy Development |{" "}
               <span className="font-bold">Productivity Enhancement</span>
             </p>
             <p>
@@ -68,7 +132,7 @@ const Home = () => {
               Culture Design &amp; Activation
             </p>
             <p>
-              Management Execution |{' '}
+              Management Execution |{" "}
               <span className="font-bold">Organizational Problem Solving</span>
             </p>
             <p className="font-bold">BE. DO. YOU.</p>

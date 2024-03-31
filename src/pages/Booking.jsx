@@ -1,5 +1,5 @@
-import React from 'react';
-import { InlineWidget } from 'react-calendly';
+import React from "react";
+import { InlineWidget } from "react-calendly";
 
 const Booking = () => {
   return (
@@ -8,7 +8,9 @@ const Booking = () => {
         <h1 className="text-center font-robotoCondensed font-bold">
           Schedule a Call
         </h1>
-        <InlineWidget url="https://calendly.com/dteat/60min" />
+        <div>
+          <InlineWidget url="https://calendly.com/dteat/60min" />
+        </div>
       </div>
     </div>
   );
