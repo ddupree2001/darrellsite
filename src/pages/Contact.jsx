@@ -2,9 +2,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-white">
       <div className="py-8 lg:py-16 px-4 md:px-12 xl:px-16 2xl:px-20 mx-auto max-w-screen-md">
-        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-white">
+        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-black">
           Contact Us
         </h2>
         <p className="mb-8 lg:mb-16 font-light text-center text-[#D3D3D3] sm:text-xl">
@@ -15,7 +15,7 @@ const Contact = () => {
           <div>
             <label
               for="email"
-              className="block mb-2 text-sm font-medium text-white"
+              className="block mb-2 text-sm font-medium text-black"
             >
               Your email
             </label>
@@ -30,7 +30,7 @@ const Contact = () => {
           <div>
             <label
               for="subject"
-              className="block mb-2 text-sm font-medium text-white"
+              className="block mb-2 text-sm font-medium text-black"
             >
               Subject
             </label>
@@ -45,7 +45,7 @@ const Contact = () => {
           <div className="sm:col-span-2 w-full">
             <label
               for="message"
-              className="block mb-2 text-sm font-medium text-white"
+              className="block mb-2 text-sm font-medium text-black"
             >
               Your message
             </label>
@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            classNameName="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-[#65bd50] sm:w-fit"
+            classNameName="py-3 px-5 text-sm font-medium text-center text-black rounded-lg bg-[#65bd50] sm:w-fit"
           >
             Send message
           </button>
