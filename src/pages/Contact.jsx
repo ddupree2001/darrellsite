@@ -7,7 +7,7 @@ const Contact = () => {
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-black">
           Contact Us
         </h2>
-        <p className="mb-8 lg:mb-16 font-light text-center text-[#D3D3D3] sm:text-xl">
+        <p className="mb-8 lg:mb-16 font-light text-center text-[#808080] sm:text-xl">
           Experiencing a challenge with your business strategy? Reach out to us
           - we're here to assist you every step of the way.
         </p>
@@ -22,7 +22,7 @@ const Contact = () => {
             <input
               type="email"
               id="email"
-              className="shadow-sm bg-white border border-gray-300 text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+              className="block p-3 w-full text-sm text-black bg-white rounded-lg border border-gray-300 focus:border-[#65bd50] focus:ring-[#65bd50] focus:outline-[#65bd50]"
               placeholder="name@flowbite.com"
               required
             />
@@ -37,7 +37,7 @@ const Contact = () => {
             <input
               type="text"
               id="subject"
-              className="block p-3 w-full text-sm text-black bg-white rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700"
+              className="block p-3 w-full text-sm text-black bg-white rounded-lg border border-gray-300 focus:border-[#65bd50] focus:ring-[#65bd50] focus:outline-[#65bd50]"
               placeholder="Let us know how we can help you"
               required
             />
@@ -52,13 +52,13 @@ const Contact = () => {
             <textarea
               id="message"
               rows="6"
-              className="block p-2.5 w-full text-sm text-black bg-white rounded-lg shadow-sm border border-[#65bd50] focus:ring-[#65bd50]"
+              className="block p-2.5 w-full text-sm text-black bg-white rounded-lg shadow-sm border border-gray-300 focus:border-[#65bd50] focus:ring-[#65bd50] focus:outline-[#65bd50]"
               placeholder="Leave a comment..."
             ></textarea>
           </div>
           <button
             type="submit"
-            classNameName="py-3 px-5 text-sm font-medium text-center text-black rounded-lg bg-[#65bd50] sm:w-fit"
+            className="py-3 px-6 text-sm font-medium text-center text-white rounded-lg bg-[#65bd50] hover:bg-[#54ac41] sm:w-fit"
           >
             Send message
           </button>
