@@ -150,7 +150,9 @@ const Home = () => {
       <div className="block lg:flex">
         <div className="bg-[#D3D3D3] w-full lg:w-1/2">
           <div className="max-w-screen-md mx-auto px-4 md:px-12 lg:px-8 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 flex flex-col items-center h-full gap-y-5 font-robotoCondensed text-sm sm:text-2xl lg:text-lg xl:text-xl text-[#333333] text-center">
-            <p className="text-[#65bd50] font-bold text-3xl">WHAT WE DO</p>
+            <p className="text-[#65bd50] font-bold text-xl sm:text-2xl md:text-3xl">
+              WHAT WE DO
+            </p>
             <p>
               Scalable Strategy Development |{" "}
               <span className="font-bold">Productivity Enhancement</span>
@@ -163,7 +165,9 @@ const Home = () => {
               Management Execution |{" "}
               <span className="font-bold">Organizational Problem Solving</span>
             </p>
-            <p className="font-bold text-3xl">BE. DO. YOU.</p>
+            <p className="font-bold text-xl sm:text-2xl md:text-3xl">
+              BE. DO. YOU.
+            </p>
           </div>
         </div>
         <div className="bg-[#EFEDE6] w-full lg:w-1/2">
