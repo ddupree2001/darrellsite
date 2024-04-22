@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const About = () => {
   return (
@@ -7,7 +7,7 @@ const About = () => {
         <h1 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-robotoCondensed font-bold text-[#65bd50] mb-5 md:mb-10">
           Executive Coach, Tested Executive, Corporate Board Member
         </h1>
-        <div className="flex flex-col gap-y-3 md:gap-y-5 font-thin font-openSans text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl text-left text-[#333333]">
+        <div className="flex flex-col gap-y-3 md:gap-y-5 font-thin font-openSans text-sm sm:text-base md:text-xl text-left text-[#333333]">
           <p>
             Darrell Teat excels as a corporate growth leader that leverages
             organizational strengths to drive sustained profitability and
@@ -52,7 +52,7 @@ const About = () => {
             Darrell also holds a Master’s in Business Administration from Drexel
             University, LeBow College of Business.
           </p>
-          <p className="font-robotoCondensed font-semibold text-base sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl mt-5 md:mt-10">
+          <p className="font-robotoCondensed font-semibold text-base sm:text-lg xl:text-4xl mt-5 md:mt-10">
             Current Board Engagements:
           </p>
           <p>

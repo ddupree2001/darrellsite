@@ -26,13 +26,13 @@ const Home = () => {
         </div>
       </div>
       <div className="h-[200px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] headshot">
-        <div className="max-w-screen-2xl mx-auto px-4 md:px-12 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 flex items-end h-full">
-          <div className="w-3/5 flex flex-col justify-center gap-y-4">
-            <p className="text-white text-base sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-robotoCondensed font-semibold mb-4">
-              OUR MISSION IS TO “HELP TAKE THE LID OFF YOUR LIFE &amp; YOUR
-              CAREER”
+        <div className="max-w-screen-2xl mx-auto px-4 md:px-12 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 flex items-center h-full">
+          <div className="w-[70%] flex flex-col justify-center gap-y-4">
+            <p className="text-white text-base sm:text-3xl md:text-4xl lg:text-5xl xl:text-[3.25rem] text-left font-robotoCondensed font-semibold mb-4">
+              OUR MISSION IS TO <br />
+              “TAKE THE LID OFF YOUR LIFE &amp; CAREER”
             </p>
-            <div className="text-center">
+            <div className="text-left">
               <button className="bg-[#65bd50] hover:bg-[#54ac41] text-white py-3 px-6 sm:px-10 rounded-md text-xs sm:text-sm md:text-base lg:text-xl cursor-pointer">
                 <a href="/letstalk">Let's Chat!</a>
               </button>
@@ -41,7 +41,7 @@ const Home = () => {
         </div>
       </div>
       <div className="bg-[#D3D3D3]">
-        <div className="max-w-screen-2xl mx-auto px-4 md:px-12 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 text-[#333333] font-openSans font-thin text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl flex flex-col gap-y-5">
+        <div className="max-w-screen-2xl mx-auto px-4 md:px-12 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 text-[#333333] font-openSans font-thin text-sm sm:text-base md:text-xl lg:text-2xl flex flex-col gap-y-5">
           <p>
             Activating your strengths to operate at peak performance in every
             area of your life takes focus, identification of your standards,
@@ -64,10 +64,10 @@ const Home = () => {
       </div>
       <div className="bg-white">
         <div className="max-w-screen-2xl mx-auto px-4 md:px-12 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 flex flex-col items-center gap-y-5 md:gap-y-8 lg:gap-y-10">
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-robotoCondensed font-bold text-[#65bd50]">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-robotoCondensed font-bold text-[#65bd50]">
             READY TO WIN
           </h2>
-          <p className="font-thin font-openSans text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl text-center text-[#333333]">
+          <p className="font-thin font-openSans text-sm sm:text-base md:text-xl lg:text-2xl text-center text-[#333333]">
             “Leadership is Leadership.” Leaders from a broad range of industries
             have trusted us to help develop their leaders, as well as, provide
             strategic guidance to their organizations.
@@ -165,18 +165,19 @@ const Home = () => {
               Management Execution |{" "}
               <span className="font-bold">Organizational Problem Solving</span>
             </p>
-            <p className="font-bold text-xl sm:text-2xl md:text-3xl">
-              BE. DO. YOU.
-            </p>
+            <div className="text-left">
+              <p className="font-bold">"I Can. I Will. I Must."</p>
+              <p>- Eric Thomas</p>
+            </div>
           </div>
         </div>
         <div className="bg-[#EFEDE6] w-full lg:w-1/2">
-          <div className="max-w-screen-md mx-auto px-4 md:px-12 lg:px-8 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 flex flex-col items-center gap-y-5 sm:gap-y-10">
+          <div className="max-w-screen-md mx-auto px-4 md:px-12 lg:px-8 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 flex flex-col items-center gap-y-5">
             <h2 className="text-xl sm:text-2xl md:text-3xl font-robotoCondensed font-bold text-[#65bd50] text-center">
               HELPING OUR CLIENTS “TAKE THE LID OFF”
             </h2>
-            <div className="flex gap-5 font-light font-openSans text-[#333333] text-xs sm:text-base lg:text-sm xl:text-base">
-              <div className="w-1/2">
+            <div className="flex flex-col gap-5 font-light font-openSans text-[#333333] text-xs sm:text-base lg:text-sm xl:text-base">
+              <div className="w-full">
                 <p className="">
                   "I have been fortunate to utilize the services of Darrell Teat
                   &amp; Associates. Darrell's business acumen and ability to
@@ -191,7 +192,7 @@ const Home = () => {
                   The Johnson Group
                 </p>
               </div>
-              <div className="w-1/2">
+              <div className="w-full">
                 <p>
                   "Our C Suite at Clutch works with Darrell Teat &amp;
                   Associates for regular executive coaching. Darrell's energy

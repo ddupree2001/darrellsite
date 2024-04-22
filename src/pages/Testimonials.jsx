@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <div className="bg-white">
       <div className="flex flex-col justify-center items-center max-w-screen-2xl mx-auto px-4 md:px-12 xl:px-16 2xl:px-20 py-10 md:py-16 2xl:py-20 gap-y-5">
-        <h1 className="text-center font-robotoCondensed font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-5 md:mb-10">
+        <h1 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-robotoCondensed font-bold text-[#65bd50] mb-5 md:mb-10">
           What Our Clients Say
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 font-light font-openSans text-[#333333] text-sm md:text-base">
@@ -62,6 +62,29 @@ const Testimonials = () => {
             <p className="font-bold font-robotoCondensed text-[#808080] mt-2">
               Christopher Johnson, Founder &amp; CEO <br />
               The Johnson Group
+            </p>
+          </div>
+          <div>
+            <p className="">
+              "As a leader, who has worked at the city, state and federal level
+              and in the private sector, I've been exposed to many forms of
+              leadership development. Working with Darrell Teat & Associates has
+              been truly instrumental to my professional and personal growth. I
+              would encourage anyone that wants to take their career to the next
+              level to engage Darrell Teat as the vehicle to take you there."
+            </p>
+            <p className="font-bold font-robotoCondensed text-[#808080] mt-2">
+              Michael Marion, Chief of Compliance
+              <br />
+              United States Department of Education
+            </p>
+          </div>
+          <div>
+            <p className="">""</p>
+            <p className="font-bold font-robotoCondensed text-[#808080] mt-2">
+              DeVon DuPree, Founder & CEO
+              <br />
+              Ignition Web Development
             </p>
           </div>
         </div>

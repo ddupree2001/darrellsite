@@ -34,7 +34,7 @@ const Footer = ({ open }) => {
           <div className="flex flex-col items-center lg:h-[150px]">
             <p className="font-bold text-xl mb-2">Quick Links</p>
             <a href="/about" className="hover:underline hover:text-[#65bd50]">
-              About
+              Bio
             </a>
             <a
               href="/testimonials"
