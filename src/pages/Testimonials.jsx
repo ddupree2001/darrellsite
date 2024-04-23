@@ -80,7 +80,14 @@ const Testimonials = () => {
             </p>
           </div>
           <div>
-            <p className="">""</p>
+            <p className="">
+              "Working with Darrell was a game-changer for my startup. As a tech
+              guy creating his first business, I didn't really know where to
+              start. Through his motivational words and strategic advice, I was
+              able to create a business plan that was not only successful but
+              also sustainable. I would recommend Darrell to anyone looking to
+              take their business to the next level."
+            </p>
             <p className="font-bold font-robotoCondensed text-[#808080] mt-2">
               DeVon DuPree, Founder & CEO
               <br />
