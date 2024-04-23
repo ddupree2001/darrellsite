@@ -1,4 +1,5 @@
 import React from "react";
+import headshot from "../assets/dteat_white.svg";
 
 const About = () => {
   return (
@@ -8,28 +9,36 @@ const About = () => {
           Executive Coach, Tested Executive, Corporate Board Member
         </h1>
         <div className="flex flex-col gap-y-3 md:gap-y-5 font-thin font-openSans text-sm sm:text-base md:text-xl text-left text-[#333333]">
-          <p>
-            Darrell Teat excels as a corporate growth leader that leverages
-            organizational strengths to drive sustained profitability and
-            innovation. He influences organizational change and efficacy by
-            inspiring employees to become the best version of themselves, while
-            codifying a unified vision that aligns corporate values and
-            individual aspirations. Darrell accelerates revenue diversification
-            efforts that embrace core competencies and are rooted in sound
-            financial and data driven strategies. He believes people are a
-            company’s greatest treasure and operates from the Simon Sinek quote,
-            “Leadership is not about being in charge, it is about taking care of
-            those in your charge”.
-          </p>
-          <p>
-            Darrell currently serves as President &amp; Chief Executive Officer
-            of Safety Center Incorporated, a California-based, social enterprise
-            excelling in safety training and education. At Safety Center,
-            Darrell leads one of the California’s largest and most effective
-            safety training organization’s which specializes in workplace safety
-            training and DUI education, and serves customers in California,
-            Arizona, and Washington.
-          </p>
+          <div className="flex flex-col md:flex-row gap-5 items-center">
+            <div className="w-full md:w-1/2 flex flex-col gap-y-3 md:gap-y-5">
+              <p>
+                Darrell Teat excels as a corporate growth leader that leverages
+                organizational strengths to drive sustained profitability and
+                innovation. He influences organizational change and efficacy by
+                inspiring employees to become the best version of themselves,
+                while codifying a unified vision that aligns corporate values
+                and individual aspirations. Darrell accelerates revenue
+                diversification efforts that embrace core competencies and are
+                rooted in sound financial and data driven strategies. He
+                believes people are a company’s greatest treasure and operates
+                from the Simon Sinek quote, “Leadership is not about being in
+                charge, it is about taking care of those in your charge”.
+              </p>
+              <p>
+                Darrell currently serves as President &amp; Chief Executive
+                Officer of Safety Center Incorporated, a California-based,
+                social enterprise excelling in safety training and education. At
+                Safety Center, Darrell leads one of the California’s largest and
+                most effective safety training organization’s which specializes
+                in workplace safety training and DUI education, and serves
+                customers in California, Arizona, and Washington.
+              </p>
+            </div>
+            <div className="w-full md:w-1/2 h-full flex justify-center">
+              <img src={headshot} alt="Darrell Teat" className="w-1/2" />
+            </div>
+          </div>
+
           <p>
             Previously, serving in the capacity of President, Darrell led the
             national expansion of the Nehemiah Corporation of America’s, single
